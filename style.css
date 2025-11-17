@@ -1,0 +1,32 @@
+/* Card Container */
+.card {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: auto;              /* centers the card */
+    padding: 20px;             /* inside space */
+    border-radius: 10px;       /* rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);  /* subtle shadow */
+    text-align: center;
+}
+
+/* Profile Image */
+.card img {
+    width: 150px;
+    border-radius: 50%;        /* circular shape */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Profile Name */
+.card h2 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/* Short Description */
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
